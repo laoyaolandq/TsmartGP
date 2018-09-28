@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error Report</title>
+<script type="text/javascript" src="data/data.js"></script>
+
+<script type="text/javascript" src="jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="semantic/dist/semantic.min.js"></script>
+<script type="text/javascript" src="jquery/jquery.easing.js"></script>
+<script type="text/javascript" src="jqueryFileTree/jqueryFileTree.js"></script>
+<script type="text/javascript" src="Ace/src-noconflict/ace.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="jqueryFileTree/jqueryFileTree.css">
+</head>
+<body>
+<div class="contents" style="height:100%">
+	<div class="ui two column stackable grid" style="height:100%">
+		<div class="ui column" style="width:20%;height:100%">
+			<div class="ui segments" style="width:100%;height:40%">
+				<div class="ui top attached inverted segment">
+				<b>Project</b>
+				</div>
+				<div class="ui attached segment" id="file_tree" style="height:calc(100% - 48px);overflow-x:hidden"></div>
+			</div>
+			<div class="ui segments" style="width:100%;height:60%">
+                <div class="ui top attached inverted segment">
+                    <b>Path</b>
+                </div>
+                <div class="ui attached segment"  style="height:calc(100% - 48px);overflow-x:hidden">
+                    <div id = "path_list" class="ui tiny middle aligned selection divided ordered list"></div>
+                </div>
+			</div>
+		</div>
+		<div class="ui column" style="width:80%;height:100%">
+			<div class="ui two column stackable grid">
+				<div class = "ui column" style="width:65%">
+					<div class="ui segments">
+						<table class="ui attached inverted red fixed celled table">
+						<thead>
+							<tr>
+								<th>Fault id</th>
+								<th>Severity</th>
+								<th>Confidence</th>
+								<th>Weakness</th>
+							</tr>
+						</thead>
+						</table>
+                        <div  style="height:100px;overflow-x:hidden">
+                            <table class="ui selectable fixed single lined celled table">
+                            <tbody id = "tablebody"></tbody>
+                            </table>
+                        </div>
+					</div>			
+				</div>
+				<div class = "ui column" style="width:35%">
+					<div class="ui segments">
+					<div class="ui top attached inverted segment">
+					<b>Faults Filter</b>
+					</div>
+					<div class="ui attached segment" style="height:100px;overflow-x:hidden">
+						<div class="ui form">
+						<div class="inline field">
+							<div id = "fault_severity" class="ui toggle checkbox">
+							<input type="checkbox" tabindex="0" class="hidden">
+							<label>Only show 'Error'</label>
+							</div>
+						</div>
+						<div class="inline field">
+							<div id = "fault_confidence" class="ui toggle checkbox">
+							<input type="checkbox" tabindex="0" class="hidden">
+							<label>Only show 'Must'</label>
+							</div>
+							<label></label>
+						</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui segments" style="width:100%;height:calc(100% - 148px)">
+				<div class="ui top attached inverted segment">
+				<b>Codes</b>
+				</div>
+				<div class="ui attached segment" style="height:calc(100% - 48px)">
+					<pre id="editor" style = "margin:0;position:absolute;left:0;right:0;top:0;bottom:0"></pre>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

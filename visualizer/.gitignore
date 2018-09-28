@@ -1,0 +1,12 @@
+*.class
+*.Rhistory
+
+bin/
+classes/
+src/META-INF/
+
+.idea/*
+
+bug-visualizer.jar
+
+out/*

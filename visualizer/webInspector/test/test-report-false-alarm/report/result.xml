@@ -1,0 +1,1216 @@
+<report>
+   <weaknesses class="java.util.ArrayList">
+      <weaknessInfo name="INTEGER_OVERFLOW"/>
+      <weaknessInfo name="INTEGER_CONVERSION"/>
+      <weaknessInfo name="DIVIDED_BY_ZERO"/>
+      <weaknessInfo name="NULL_POINTER_DEREFERENCE"/>
+      <weaknessInfo name="DEAD_CODE"/>
+      <weaknessInfo name="ALWAYS_TRUE"/>
+      <weaknessInfo name="ALWAYS_FALSE"/>
+   </weaknesses>
+   <projectPath>/home/zhoumin/tsmart-development/cn.edu.thu.tsmart.tool.bd.engine/cpachecker</projectPath>
+   <runningTime>8888</runningTime>
+   <totalLines>9999</totalLines>
+   <faultResults class="java.util.ArrayList">
+      <faultResult id="0" severity="ERROR" confidence="MAY" weakness="Integer Conversion Error">
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4873" offset="108542"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4873" offset="108542"/>
+               <endCoordinate line="4873" offset="108548"/>
+            </area>
+            <supplementation/>
+            <code>break;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4904" offset="109766"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4904" offset="109766"/>
+               <endCoordinate line="4904" offset="109784"/>
+            </area>
+            <supplementation/>
+            <code>[!(listenSocket != -1)]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4908" offset="109867"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4908" offset="109867"/>
+               <endCoordinate line="4908" offset="109885"/>
+            </area>
+            <supplementation/>
+            <code>[!(acceptSocket != -1)]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4919" offset="109976"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4919" offset="109976"/>
+               <endCoordinate line="4919" offset="109993"/>
+            </area>
+            <supplementation/>
+            <code>*dataPtr1 = data;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4922" offset="110014"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4922" offset="110014"/>
+               <endCoordinate line="4922" offset="110035"/>
+            </area>
+            <supplementation/>
+            <code>int data = *dataPtr2;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4924" offset="110058"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4924" offset="110058"/>
+               <endCoordinate line="4924" offset="110075"/>
+            </area>
+            <supplementation/>
+            <code>char source[100];</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4925" offset="110088"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4925" offset="110088"/>
+               <endCoordinate line="4925" offset="110108"/>
+            </area>
+            <supplementation/>
+            <code>char dest[100] = &quot;&quot;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4926" offset="110121"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4926" offset="110121"/>
+               <endCoordinate line="4926" offset="110148"/>
+            </area>
+            <supplementation/>
+            <code>memset(source, &apos;A&apos;, 100-1);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4927" offset="110161"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4927" offset="110161"/>
+               <endCoordinate line="4927" offset="110182"/>
+            </area>
+            <supplementation/>
+            <code>source[100-1] = &apos;\0&apos;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4928" offset="110199"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4928" offset="110199"/>
+               <endCoordinate line="4928" offset="110209"/>
+            </area>
+            <supplementation/>
+            <code>[data__2 &lt; 100]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4932" offset="110243"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4932" offset="110243"/>
+               <endCoordinate line="4932" offset="110270"/>
+            </area>
+            <supplementation/>
+            <code>memcpy(dest, source, data);</code>
+         </transfer>
+      </faultResult>
+      <faultResult id="1" severity="ERROR" confidence="MAY" weakness="Integer Conversion Error">
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4857" offset="107686"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4857" offset="107686"/>
+               <endCoordinate line="4857" offset="107692"/>
+            </area>
+            <supplementation/>
+            <code>break;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4904" offset="109766"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4904" offset="109766"/>
+               <endCoordinate line="4904" offset="109784"/>
+            </area>
+            <supplementation/>
+            <code>[!(listenSocket != -1)]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4908" offset="109867"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4908" offset="109867"/>
+               <endCoordinate line="4908" offset="109885"/>
+            </area>
+            <supplementation/>
+            <code>[!(acceptSocket != -1)]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4919" offset="109976"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4919" offset="109976"/>
+               <endCoordinate line="4919" offset="109993"/>
+            </area>
+            <supplementation/>
+            <code>*dataPtr1 = data;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4922" offset="110014"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4922" offset="110014"/>
+               <endCoordinate line="4922" offset="110035"/>
+            </area>
+            <supplementation/>
+            <code>int data = *dataPtr2;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4924" offset="110058"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4924" offset="110058"/>
+               <endCoordinate line="4924" offset="110075"/>
+            </area>
+            <supplementation/>
+            <code>char source[100];</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4925" offset="110088"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4925" offset="110088"/>
+               <endCoordinate line="4925" offset="110108"/>
+            </area>
+            <supplementation/>
+            <code>char dest[100] = &quot;&quot;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4926" offset="110121"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4926" offset="110121"/>
+               <endCoordinate line="4926" offset="110148"/>
+            </area>
+            <supplementation/>
+            <code>memset(source, &apos;A&apos;, 100-1);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4927" offset="110161"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4927" offset="110161"/>
+               <endCoordinate line="4927" offset="110182"/>
+            </area>
+            <supplementation/>
+            <code>source[100-1] = &apos;\0&apos;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4928" offset="110199"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4928" offset="110199"/>
+               <endCoordinate line="4928" offset="110209"/>
+            </area>
+            <supplementation/>
+            <code>[data__2 &lt; 100]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4932" offset="110243"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4932" offset="110243"/>
+               <endCoordinate line="4932" offset="110270"/>
+            </area>
+            <supplementation/>
+            <code>memcpy(dest, source, data);</code>
+         </transfer>
+      </faultResult>
+      <faultResult id="2" severity="ERROR" confidence="MAY" weakness="Integer Conversion Error">
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <coordinate line="4951" offset="110470"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <startCoordinate line="4951" offset="110470"/>
+               <endCoordinate line="4951" offset="110480"/>
+            </area>
+            <supplementation/>
+            <code>data = -1;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <coordinate line="4953" offset="110495"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <startCoordinate line="4953" offset="110495"/>
+               <endCoordinate line="4953" offset="110516"/>
+            </area>
+            <supplementation/>
+            <code>int data = *dataPtr1;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <coordinate line="4955" offset="110526"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <startCoordinate line="4955" offset="110526"/>
+               <endCoordinate line="4955" offset="110539"/>
+            </area>
+            <supplementation/>
+            <code>data = 100-1;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <coordinate line="4956" offset="110548"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <startCoordinate line="4956" offset="110548"/>
+               <endCoordinate line="4956" offset="110565"/>
+            </area>
+            <supplementation/>
+            <code>*dataPtr1 = data;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <coordinate line="4959" offset="110586"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <startCoordinate line="4959" offset="110586"/>
+               <endCoordinate line="4959" offset="110607"/>
+            </area>
+            <supplementation/>
+            <code>int data = *dataPtr2;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <coordinate line="4961" offset="110630"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <startCoordinate line="4961" offset="110630"/>
+               <endCoordinate line="4961" offset="110647"/>
+            </area>
+            <supplementation/>
+            <code>char source[100];</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <coordinate line="4962" offset="110660"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <startCoordinate line="4962" offset="110660"/>
+               <endCoordinate line="4962" offset="110680"/>
+            </area>
+            <supplementation/>
+            <code>char dest[100] = &quot;&quot;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <coordinate line="4963" offset="110693"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <startCoordinate line="4963" offset="110693"/>
+               <endCoordinate line="4963" offset="110720"/>
+            </area>
+            <supplementation/>
+            <code>memset(source, &apos;A&apos;, 100-1);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <coordinate line="4964" offset="110733"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <startCoordinate line="4964" offset="110733"/>
+               <endCoordinate line="4964" offset="110754"/>
+            </area>
+            <supplementation/>
+            <code>source[100-1] = &apos;\0&apos;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <coordinate line="4965" offset="110771"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <startCoordinate line="4965" offset="110771"/>
+               <endCoordinate line="4965" offset="110781"/>
+            </area>
+            <supplementation/>
+            <code>[data__2 &lt; 100]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <coordinate line="4969" offset="110815"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>2_igoodG2B</function>
+               <startCoordinate line="4969" offset="110815"/>
+               <endCoordinate line="4969" offset="110842"/>
+            </area>
+            <supplementation/>
+            <code>memcpy(dest, source, data);</code>
+         </transfer>
+      </faultResult>
+      <faultResult id="3" severity="ERROR" confidence="MAY" weakness="Integer Conversion Error">
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4908" offset="109867"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4908" offset="109867"/>
+               <endCoordinate line="4908" offset="109885"/>
+            </area>
+            <supplementation/>
+            <code>[acceptSocket != -1]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4910" offset="109917"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4910" offset="109917"/>
+               <endCoordinate line="4910" offset="109937"/>
+            </area>
+            <supplementation/>
+            <code>close(acceptSocket);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>&lt;none&gt;</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>&lt;none&gt;</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="0" offset="0"/>
+               <endCoordinate line="0" offset="0"/>
+            </area>
+            <supplementation/>
+            <code></code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4919" offset="109976"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4919" offset="109976"/>
+               <endCoordinate line="4919" offset="109993"/>
+            </area>
+            <supplementation/>
+            <code>*dataPtr1 = data;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4922" offset="110014"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4922" offset="110014"/>
+               <endCoordinate line="4922" offset="110035"/>
+            </area>
+            <supplementation/>
+            <code>int data = *dataPtr2;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4924" offset="110058"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4924" offset="110058"/>
+               <endCoordinate line="4924" offset="110075"/>
+            </area>
+            <supplementation/>
+            <code>char source[100];</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4925" offset="110088"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4925" offset="110088"/>
+               <endCoordinate line="4925" offset="110108"/>
+            </area>
+            <supplementation/>
+            <code>char dest[100] = &quot;&quot;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4926" offset="110121"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4926" offset="110121"/>
+               <endCoordinate line="4926" offset="110148"/>
+            </area>
+            <supplementation/>
+            <code>memset(source, &apos;A&apos;, 100-1);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4927" offset="110161"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4927" offset="110161"/>
+               <endCoordinate line="4927" offset="110182"/>
+            </area>
+            <supplementation/>
+            <code>source[100-1] = &apos;\0&apos;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4928" offset="110199"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4928" offset="110199"/>
+               <endCoordinate line="4928" offset="110209"/>
+            </area>
+            <supplementation/>
+            <code>[data__2 &lt; 100]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4932" offset="110243"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4932" offset="110243"/>
+               <endCoordinate line="4932" offset="110270"/>
+            </area>
+            <supplementation/>
+            <code>memcpy(dest, source, data);</code>
+         </transfer>
+      </faultResult>
+      <faultResult id="4" severity="ERROR" confidence="MAY" weakness="Integer Conversion Error">
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4906" offset="109816"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4906" offset="109816"/>
+               <endCoordinate line="4906" offset="109836"/>
+            </area>
+            <supplementation/>
+            <code>close(listenSocket);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>&lt;none&gt;</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>&lt;none&gt;</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="0" offset="0"/>
+               <endCoordinate line="0" offset="0"/>
+            </area>
+            <supplementation/>
+            <code></code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4908" offset="109867"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4908" offset="109867"/>
+               <endCoordinate line="4908" offset="109885"/>
+            </area>
+            <supplementation/>
+            <code>[!(acceptSocket != -1)]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4919" offset="109976"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4919" offset="109976"/>
+               <endCoordinate line="4919" offset="109993"/>
+            </area>
+            <supplementation/>
+            <code>*dataPtr1 = data;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4922" offset="110014"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4922" offset="110014"/>
+               <endCoordinate line="4922" offset="110035"/>
+            </area>
+            <supplementation/>
+            <code>int data = *dataPtr2;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4924" offset="110058"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4924" offset="110058"/>
+               <endCoordinate line="4924" offset="110075"/>
+            </area>
+            <supplementation/>
+            <code>char source[100];</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4925" offset="110088"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4925" offset="110088"/>
+               <endCoordinate line="4925" offset="110108"/>
+            </area>
+            <supplementation/>
+            <code>char dest[100] = &quot;&quot;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4926" offset="110121"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4926" offset="110121"/>
+               <endCoordinate line="4926" offset="110148"/>
+            </area>
+            <supplementation/>
+            <code>memset(source, &apos;A&apos;, 100-1);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4927" offset="110161"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4927" offset="110161"/>
+               <endCoordinate line="4927" offset="110182"/>
+            </area>
+            <supplementation/>
+            <code>source[100-1] = &apos;\0&apos;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4928" offset="110199"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4928" offset="110199"/>
+               <endCoordinate line="4928" offset="110209"/>
+            </area>
+            <supplementation/>
+            <code>[data__2 &lt; 100]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4932" offset="110243"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4932" offset="110243"/>
+               <endCoordinate line="4932" offset="110270"/>
+            </area>
+            <supplementation/>
+            <code>memcpy(dest, source, data);</code>
+         </transfer>
+      </faultResult>
+      <faultResult id="5" severity="ERROR" confidence="MAY" weakness="Integer Conversion Error">
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4839" offset="106653"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4839" offset="106653"/>
+               <endCoordinate line="4903" offset="109749"/>
+            </area>
+            <supplementation/>
+            <code>0</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4904" offset="109766"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4904" offset="109766"/>
+               <endCoordinate line="4904" offset="109784"/>
+            </area>
+            <supplementation/>
+            <code>[!(listenSocket != -1)]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4908" offset="109867"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4908" offset="109867"/>
+               <endCoordinate line="4908" offset="109885"/>
+            </area>
+            <supplementation/>
+            <code>[!(acceptSocket != -1)]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4919" offset="109976"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4919" offset="109976"/>
+               <endCoordinate line="4919" offset="109993"/>
+            </area>
+            <supplementation/>
+            <code>*dataPtr1 = data;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4922" offset="110014"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4922" offset="110014"/>
+               <endCoordinate line="4922" offset="110035"/>
+            </area>
+            <supplementation/>
+            <code>int data = *dataPtr2;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4924" offset="110058"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4924" offset="110058"/>
+               <endCoordinate line="4924" offset="110075"/>
+            </area>
+            <supplementation/>
+            <code>char source[100];</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4925" offset="110088"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4925" offset="110088"/>
+               <endCoordinate line="4925" offset="110108"/>
+            </area>
+            <supplementation/>
+            <code>char dest[100] = &quot;&quot;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4926" offset="110121"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4926" offset="110121"/>
+               <endCoordinate line="4926" offset="110148"/>
+            </area>
+            <supplementation/>
+            <code>memset(source, &apos;A&apos;, 100-1);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4927" offset="110161"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4927" offset="110161"/>
+               <endCoordinate line="4927" offset="110182"/>
+            </area>
+            <supplementation/>
+            <code>source[100-1] = &apos;\0&apos;;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4928" offset="110199"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4928" offset="110199"/>
+               <endCoordinate line="4928" offset="110209"/>
+            </area>
+            <supplementation/>
+            <code>[data__2 &lt; 100]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <coordinate line="4932" offset="110243"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE195_Signed_to_Unsigned_Conversion_Error/s02/CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32/2.i</file>
+               <function>CWE195_Signed_to_Unsigned_Conversion_Error__listen_socket_memcpy_32_bad</function>
+               <startCoordinate line="4932" offset="110243"/>
+               <endCoordinate line="4932" offset="110270"/>
+            </area>
+            <supplementation/>
+            <code>memcpy(dest, source, data);</code>
+         </transfer>
+      </faultResult>
+   </faultResults>
+</report>

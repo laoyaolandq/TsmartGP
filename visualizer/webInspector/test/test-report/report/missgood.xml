@@ -1,0 +1,38 @@
+<report>
+   <weaknesses class="java.util.ArrayList">
+      <weaknessInfo name="DIVIDED_BY_ZERO"/>
+   </weaknesses>
+   <projectPath>/dummy</projectPath>
+   <runningTime>1</runningTime>
+   <totalLines>1</totalLines>
+   <faultResults class="java.util.ArrayList">
+      <faultResult id="1" severity="ERROR" confidence="MUST" weakness="DIVIDED_BY_ZERO">
+         <location>
+            <position>
+               <file>/x.c</file>
+               <function>main</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/x.c</file>
+               <function>main</function>
+               <startCoordinate line="0" offset="0"/>
+               <endCoordinate line="0" offset="0"/>
+            </area>
+            <supplementation/>
+            <code>[code]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/x.c</file>
+               <function>CWE196_Unsigned_to_Signed_Conversion_Error__basic_01_bad</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+      </faultResult>
+   </faultResults>
+</report>

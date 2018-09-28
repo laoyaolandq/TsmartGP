@@ -1,0 +1,424 @@
+<report>
+   <weaknesses class="java.util.ArrayList">
+      <weaknessInfo name="INTEGER_OVERFLOW"/>
+      <weaknessInfo name="INTEGER_CONVERSION"/>
+      <weaknessInfo name="DIVIDED_BY_ZERO"/>
+      <weaknessInfo name="NULL_POINTER_DEREFERENCE"/>
+      <weaknessInfo name="DEAD_CODE"/>
+      <weaknessInfo name="ALWAYS_TRUE"/>
+      <weaknessInfo name="ALWAYS_FALSE"/>
+   </weaknesses>
+   <projectPath>/home/zhoumin/tsmart-development/cn.edu.thu.tsmart.tool.bd.engine/cpachecker</projectPath>
+   <runningTime>8888</runningTime>
+   <totalLines>9999</totalLines>
+   <faultResults class="java.util.ArrayList">
+      <faultResult id="0" severity="ERROR" confidence="MAY" weakness="Null Pointer Dereference">
+         <location>
+            <position>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <startCoordinate line="0" offset="0"/>
+               <endCoordinate line="0" offset="0"/>
+            </area>
+            <supplementation/>
+            <code></code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>printLine</function>
+               <coordinate line="2934" offset="72798"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <startCoordinate line="2955" offset="73321"/>
+               <endCoordinate line="2955" offset="73350"/>
+            </area>
+            <supplementation/>
+            <code>printLine(&quot;Finished good()&quot;);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <coordinate line="2958" offset="73357"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <startCoordinate line="2958" offset="73357"/>
+               <endCoordinate line="2958" offset="73387"/>
+            </area>
+            <supplementation/>
+            <code>printLine(&quot;Calling bad()...&quot;);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <startCoordinate line="0" offset="0"/>
+               <endCoordinate line="0" offset="0"/>
+            </area>
+            <supplementation/>
+            <code></code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/io.i</file>
+               <function>printLine</function>
+               <coordinate line="3385" offset="83763"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/io.i</file>
+               <function>printLine</function>
+               <startCoordinate line="3385" offset="83763"/>
+               <endCoordinate line="3387" offset="83830"/>
+            </area>
+            <supplementation/>
+            <code>[!(line != ((void *)0))]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <startCoordinate line="0" offset="0"/>
+               <endCoordinate line="0" offset="0"/>
+            </area>
+            <supplementation/>
+            <code></code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>printLine</function>
+               <coordinate line="2934" offset="72798"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <startCoordinate line="2958" offset="73357"/>
+               <endCoordinate line="2958" offset="73387"/>
+            </area>
+            <supplementation/>
+            <code>printLine(&quot;Calling bad()...&quot;);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <coordinate line="2959" offset="73392"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <startCoordinate line="2959" offset="73392"/>
+               <endCoordinate line="2959" offset="73444"/>
+            </area>
+            <supplementation/>
+            <code>CWE476_NULL_Pointer_Dereference__binary_if_01_bad();</code>
+         </transfer>
+         <location>
+            <position>
+               <file>&lt;none&gt;</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>&lt;none&gt;</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <startCoordinate line="0" offset="0"/>
+               <endCoordinate line="0" offset="0"/>
+            </area>
+            <supplementation/>
+            <code></code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <coordinate line="2896" offset="71580"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <startCoordinate line="2896" offset="71580"/>
+               <endCoordinate line="2900" offset="71840"/>
+            </area>
+            <supplementation/>
+            <code>twoIntsStruct *twoIntsStructPointer = 
+# 23 &quot;CWE476_NULL_Pointer_Dereference__binary_if_01.c&quot; 3 4
+                                             ((void *)0)
+# 23 &quot;CWE476_NULL_Pointer_Dereference__binary_if_01.c&quot;
+                                                 ;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <coordinate line="2903" offset="71855"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <startCoordinate line="2903" offset="71855"/>
+               <endCoordinate line="2907" offset="72122"/>
+            </area>
+            <supplementation/>
+            <code>[!(((twoIntsStructPointer != ((void *)0)) &amp; ((twoIntsStructPointer-&gt;intOne) == 5)) == 0)]</code>
+         </transfer>
+      </faultResult>
+      <faultResult id="1" severity="ERROR" confidence="MAY" weakness="Null Pointer Dereference">
+         <location>
+            <position>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <startCoordinate line="0" offset="0"/>
+               <endCoordinate line="0" offset="0"/>
+            </area>
+            <supplementation/>
+            <code></code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>printLine</function>
+               <coordinate line="2934" offset="72798"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <startCoordinate line="2955" offset="73321"/>
+               <endCoordinate line="2955" offset="73350"/>
+            </area>
+            <supplementation/>
+            <code>printLine(&quot;Finished good()&quot;);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <coordinate line="2958" offset="73357"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <startCoordinate line="2958" offset="73357"/>
+               <endCoordinate line="2958" offset="73387"/>
+            </area>
+            <supplementation/>
+            <code>printLine(&quot;Calling bad()...&quot;);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <startCoordinate line="0" offset="0"/>
+               <endCoordinate line="0" offset="0"/>
+            </area>
+            <supplementation/>
+            <code></code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/io.i</file>
+               <function>printLine</function>
+               <coordinate line="3385" offset="83763"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/io.i</file>
+               <function>printLine</function>
+               <startCoordinate line="3385" offset="83763"/>
+               <endCoordinate line="3387" offset="83830"/>
+            </area>
+            <supplementation/>
+            <code>[!(line != ((void *)0))]</code>
+         </transfer>
+         <location>
+            <position>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>&lt;none&gt;</file>
+               <function>printLine</function>
+               <startCoordinate line="0" offset="0"/>
+               <endCoordinate line="0" offset="0"/>
+            </area>
+            <supplementation/>
+            <code></code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>printLine</function>
+               <coordinate line="2934" offset="72798"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <startCoordinate line="2958" offset="73357"/>
+               <endCoordinate line="2958" offset="73387"/>
+            </area>
+            <supplementation/>
+            <code>printLine(&quot;Calling bad()...&quot;);</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <coordinate line="2959" offset="73392"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>main</function>
+               <startCoordinate line="2959" offset="73392"/>
+               <endCoordinate line="2959" offset="73444"/>
+            </area>
+            <supplementation/>
+            <code>CWE476_NULL_Pointer_Dereference__binary_if_01_bad();</code>
+         </transfer>
+         <location>
+            <position>
+               <file>&lt;none&gt;</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <coordinate line="0" offset="0"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>&lt;none&gt;</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <startCoordinate line="0" offset="0"/>
+               <endCoordinate line="0" offset="0"/>
+            </area>
+            <supplementation/>
+            <code></code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <coordinate line="2896" offset="71580"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <startCoordinate line="2896" offset="71580"/>
+               <endCoordinate line="2900" offset="71840"/>
+            </area>
+            <supplementation/>
+            <code>twoIntsStruct *twoIntsStructPointer = 
+# 23 &quot;CWE476_NULL_Pointer_Dereference__binary_if_01.c&quot; 3 4
+                                             ((void *)0)
+# 23 &quot;CWE476_NULL_Pointer_Dereference__binary_if_01.c&quot;
+                                                 ;</code>
+         </transfer>
+         <location>
+            <position>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <coordinate line="2903" offset="71855"/>
+            </position>
+            <supplementation/>
+         </location>
+         <transfer>
+            <area>
+               <file>/home/zhoumin/work/juliet-1.2/transformed/testcases/CWE476_NULL_Pointer_Dereference/CWE476_NULL_Pointer_Dereference__binary_if_01/1.i</file>
+               <function>CWE476_NULL_Pointer_Dereference__binary_if_01_bad</function>
+               <startCoordinate line="2903" offset="71855"/>
+               <endCoordinate line="2907" offset="72122"/>
+            </area>
+            <supplementation/>
+            <code>[!(((twoIntsStructPointer != ((void *)0)) &amp; ((twoIntsStructPointer-&gt;intOne) == 5)) == 0)]</code>
+         </transfer>
+      </faultResult>
+   </faultResults>
+</report>
