@@ -1,0 +1,1152 @@
+-rf -1 -p 1 /home/landq/Desktop/files/part
+-rf -1 -p 1 -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -q /home/landq/Desktop/files/part
+-rf -1 -p 1 -q -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -q -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -q -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -K /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -q /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -q /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -q -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -q -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -q -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -q /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -q /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -q -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -q -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -q -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -q /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -q /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -q -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -q -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -q -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -q /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 1 -c -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 /home/landq/Desktop/files/part
+-rf -1 -p 4 -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -q /home/landq/Desktop/files/part
+-rf -1 -p 4 -q -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -q -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -q -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -K /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -q /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -q /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -q -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -q -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -q -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -q /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -q /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -q -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -q -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -q -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -q /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -q /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -q -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -q -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -q -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -q /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 4 -c -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 /home/landq/Desktop/files/part
+-rf -1 -p 8 -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -q /home/landq/Desktop/files/part
+-rf -1 -p 8 -q -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -q -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -q -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -K /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -q /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -q /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -q -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -q -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -q -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -q /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -q /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -q -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -q -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -q -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -q /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -q /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -q -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -q -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -q -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -q /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -q -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -q -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -q -R /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -1 -p 8 -c -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 /home/landq/Desktop/files/part
+-rf -5 -p 1 -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -q /home/landq/Desktop/files/part
+-rf -5 -p 1 -q -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -q -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -q -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -K /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -q /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -q /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -q -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -q -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -q -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -q /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -q /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -q -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -q -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -q -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -q /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -q /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -q -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -q -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -q -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -q /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 1 -c -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 /home/landq/Desktop/files/part
+-rf -5 -p 4 -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -q /home/landq/Desktop/files/part
+-rf -5 -p 4 -q -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -q -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -q -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -K /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -q /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -q /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -q -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -q -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -q -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -q /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -q /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -q -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -q -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -q -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -q /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -q /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -q -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -q -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -q -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -q /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 4 -c -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 /home/landq/Desktop/files/part
+-rf -5 -p 8 -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -q /home/landq/Desktop/files/part
+-rf -5 -p 8 -q -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -q -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -q -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -K /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -q /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -q /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -q -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -q -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -q -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -q /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -q /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -q -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -q -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -q -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -q /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -q /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -q -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -q -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -q -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -q /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -q -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -q -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -q -R /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -5 -p 8 -c -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 /home/landq/Desktop/files/part
+-rf -9 -p 1 -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -q /home/landq/Desktop/files/part
+-rf -9 -p 1 -q -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -q -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -q -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -K /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -q /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -q /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -q -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -q -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -q -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -q /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -q /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -q -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -q -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -q -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -q /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -q /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -q -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -q -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -q -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -q /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 1 -c -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 /home/landq/Desktop/files/part
+-rf -9 -p 4 -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -q /home/landq/Desktop/files/part
+-rf -9 -p 4 -q -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -q -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -q -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -K /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -q /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -q /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -q -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -q -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -q -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -q /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -q /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -q -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -q -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -q -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -q /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -q /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -q -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -q -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -q -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -q /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 4 -c -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 /home/landq/Desktop/files/part
+-rf -9 -p 8 -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -q /home/landq/Desktop/files/part
+-rf -9 -p 8 -q -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -q -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -q -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -K /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -q /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -q /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -q -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -q -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -q -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -q /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -i -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -q /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -q -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -q -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -q -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -q /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -K -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -q /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -q -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -q -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -q -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -q -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -R -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -q /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -q -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -q -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -q -v -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -q -R /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -q -R -z /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -q -R -v /home/landq/Desktop/files/part
+-rf -9 -p 8 -c -i -K -q -R -v -z /home/landq/Desktop/files/part

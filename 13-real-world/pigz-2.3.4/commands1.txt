@@ -1,0 +1,745 @@
+-r -1 -b 64 -p 1 -I 10 -M 10 /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -f -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 10 -c -f -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -f -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 15 -c -f -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -f -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 10 -M 20 -c -f -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -f -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 10 -c -f -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -f -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 15 -c -f -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -f -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -K /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -K -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -K -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -K -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -K -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -K -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -K -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -F -K -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -f /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -f -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -f -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -f -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -f -O /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -f -O -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -f -O -q /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -f -O -q -z /home/landq/Desktop/files/all
+-r -1 -b 64 -p 1 -I 15 -M 20 -c -f -K /home/landq/Desktop/files/all

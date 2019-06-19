@@ -1,0 +1,15 @@
+must -r
+
+1 Compression level -0~-9 -11
+2 blocksize -b mmmk
+3 stdout -c
+4 force -f
+5 first -F (for -11)
+6 interations -I n
+7 keep -k
+8 zip -K
+9 maxsplits -M n
+10 oneblock -O
+11 process -p n
+12 quiet -q
+13 zlib -z

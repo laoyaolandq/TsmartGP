@@ -1,0 +1,26 @@
+#!/bin/sh
+
+. libtest.sh
+
+export COLUMNS=90
+export LINES=120
+
+steps '
+	:view-help
+	:save-display help-default.screen
+'
+
+stdin <<EOF
+test
+EOF
+
+expected="$source_dir/all-keybindings-test.expected"
+
+test_tig
+
+assert_equals \
+	'help-default.screen' \
+	'ignore' \
+	"Test failures due to changes to 'tigrc' can be fixed by running:" \
+	"  > make test/help/all-keybindings-test && cp test/tmp/help/all-keybindings-test/help-default.screen test/help/all-keybindings-test.expected" \
+	< "$expected"

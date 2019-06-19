@@ -1,0 +1,185 @@
+#!/bin/sh
+
+. libtest.sh
+. libgit.sh
+
+export LINES=10
+
+test_setup_work_dir()
+{
+	create_repo_from_tgz "$base_dir/files/scala-js-benchmarks.tgz"
+	git checkout -b topic-branch HEAD~4
+	printf 'Topic branch\n' >> README.md
+	git add README.md
+	git_commit -m "Topic branch"
+	git checkout master
+
+	git checkout -b conflict-branch HEAD~4
+	git rm -f run.sh
+	git_commit -m "Conflict branch"
+	git checkout master
+
+	git tag v0.2 HEAD~20
+	git branch v0.2-branch v0.2
+
+	git format-patch -1 conflict-branch --stdout > "$HOME/mailbox"
+}
+
+test_case on-branch-master \
+	--args='status' \
+	--before='git checkout master' <<EOF
+On branch master
+Changes to be committed:
+  (no files)
+Changes not staged for commit:
+  (no files)
+Untracked files:
+  (no files)
+
+[status] Nothing to update                                                  100%
+EOF
+
+test_case bisecting-master \
+	--args='status' \
+	--before="git bisect start master" \
+	--after="git bisect reset" <<EOF
+Bisecting master
+Changes to be committed:
+  (no files)
+Changes not staged for commit:
+  (no files)
+Untracked files:
+  (no files)
+
+[status] Nothing to update                                                  100%
+EOF
+
+test_case on-detached-head \
+	--args='status' \
+	--before="git checkout HEAD~10" \
+	--after="git checkout master" \
+<<EOF
+HEAD detached at 988c77aad5798f1e087e5d7efe3b3319ee6de744
+Changes to be committed:
+  (no files)
+Changes not staged for commit:
+  (no files)
+Untracked files:
+  (no files)
+
+[status] Nothing to update                                                  100%
+EOF
+
+test_case on-detached-tag \
+	--args='status' \
+	--before="git checkout v0.2" \
+	--after="git checkout master" \
+<<EOF
+HEAD detached at v0.2
+Changes to be committed:
+  (no files)
+Changes not staged for commit:
+  (no files)
+Untracked files:
+  (no files)
+
+[status] Nothing to update                                                  100%
+EOF
+
+test_case merging-master \
+	--args='status' \
+	--before="git merge conflict-branch
+		  true" \
+	--after="git reset --hard" \
+<<EOF
+Merging master
+Changes to be committed:
+  (no files)
+Changes not staged for commit:
+U run.sh
+Untracked files:
+  (no files)
+
+[status] Nothing to update                                                  100%
+EOF
+
+test_case rebasing-master \
+	--args='status' \
+	--before="git checkout conflict-branch
+		  git rebase master
+		  true" \
+	--after=" git rebase --abort
+		  git checkout master" \
+<<EOF
+Rebasing conflict-branch
+Changes to be committed:
+  (no files)
+Changes not staged for commit:
+U run.sh
+Untracked files:
+  (no files)
+
+[status] Nothing to update                                                  100%
+EOF
+
+test_case applying-mailbox-to-master \
+	--args='status' \
+	--before="git am $HOME/mailbox
+		  true" \
+	--after="git am --abort" \
+<<EOF
+Applying mailbox to master
+Changes to be committed:
+  (no files)
+Changes not staged for commit:
+  (no files)
+Untracked files:
+  (no files)
+
+[status] Nothing to update                                                  100%
+EOF
+
+test_case interactive-rebase-of-branch \
+	--args='status' \
+	--before="git checkout conflict-branch
+		  git rebase -i master
+		  true" \
+	--after=" git rebase --abort
+		  git checkout master" \
+<<EOF
+Interactive rebase conflict-branch
+Changes to be committed:
+  (no files)
+Changes not staged for commit:
+U run.sh
+Untracked files:
+  (no files)
+
+[status] Nothing to update                                                  100%
+EOF
+
+run_test_cases
+
+add_exec_prefix()
+{
+	code="$(cat < "$1")"
+	if [ -n "$code" ]; then
+		printf '%s\n' "$code" | sed -e 's/^[ 	]*//' -e '/^$/d' -e 's/^/:exec @/'
+	fi
+}
+
+tig_script "all" "
+	$(while read -r name; do
+		add_exec_prefix "$name-before"
+		printf ':save-display all-%s.screen\n' "$name"
+		add_exec_prefix "$name-after"
+	done < test-cases)
+"
+
+test_timeout 60
+
+test_tig status
+
+while read -r name; do
+	assert_equals "all-$name.screen" < "$name.expected"
+done < test-cases

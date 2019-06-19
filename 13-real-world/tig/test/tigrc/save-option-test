@@ -1,0 +1,26 @@
+#!/bin/sh
+
+. libtest.sh
+
+steps "
+	:save-options saved-tigrc
+"
+
+test_tig status
+cp stderr stderr.1
+
+steps "
+	:save-options check-tigrc
+"
+
+TIGRC_USER="$HOME/saved-tigrc" test_tig status
+cp stderr stderr.2
+
+cat stderr.* > stderr
+
+assert_equals stderr <<EOF
+EOF
+
+assert_equals "saved-tigrc" <<EOF
+$(cat check-tigrc)
+EOF

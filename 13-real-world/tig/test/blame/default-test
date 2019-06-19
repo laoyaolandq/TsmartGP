@@ -1,0 +1,156 @@
+#!/bin/sh
+
+. libtest.sh
+. libgit.sh
+
+tigrc <<EOF
+set vertical-split = no
+set line-graphics = ascii
+EOF
+
+steps '
+	:save-display blame-default.screen
+
+	:4
+	:enter
+	:save-display blame-with-diff.screen
+
+	:toggle file-filter
+	:save-display blame-with-diff-no-file-filter.screen
+
+	:view-close
+	:parent
+	:save-display blame-parent-of-74537d9.screen
+'
+
+in_work_dir create_repo_from_tgz "$base_dir/files/scala-js-benchmarks.tgz"
+
+test_tig blame project/Build.scala
+
+assert_equals 'blame-default.screen' <<EOF
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   1| import sbt._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   2| import Keys._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   3|
+74537d9 Sébastien Doeraene 2013-10-29 18:46 +0100   4| import scala.scalajs.sbtp
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   5| import ScalaJSPlugin._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   6| import ScalaJSKeys._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   7|
+4779f9b Jonas Fonseca      2013-11-26 20:13 -0500   8| object ScalaJSBenchmarks
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   9|
+4779f9b Jonas Fonseca      2013-11-26 20:13 -0500  10|   val scalaJSScalaVersion
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  11|
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  12|   val projectSettings = D
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  13|       organization := "sc
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  14|       version := "0.1-SNA
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  15|   )
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  16|
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  17|   val defaultSettings = p
+4779f9b Jonas Fonseca      2013-11-26 20:13 -0500  18|       scalaVersion := sca
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  19|       scalacOptions ++= S
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  20|           "-deprecation",
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  21|           "-unchecked",
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  22|           "-feature",
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  23|           "-encoding", "u
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  24|       )
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  25|   )
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  26|
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  27|   lazy val parent: Projec
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400  28|       id = "parent",
+[blame] project/Build.scala - line 1 of 64                                   43%
+EOF
+
+assert_equals 'blame-with-diff.screen' <<EOF
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   1| import sbt._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   2| import Keys._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   3|
+74537d9 Sébastien Doeraene 2013-10-29 18:46 +0100   4| import scala.scalajs.sbtp
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   5| import ScalaJSPlugin._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   6| import ScalaJSKeys._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   7|
+4779f9b Jonas Fonseca      2013-11-26 20:13 -0500   8| object ScalaJSBenchmarks
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   9|
+[blame] project/Build.scala - line 4 of 64                                   14%
+commit 74537d9b257954056d3caa19eb3837500aded883
+Author:     Sébastien Doeraene <sjrdoeraene@gmail.com>
+AuthorDate: Tue Oct 29 18:46:52 2013 +0100
+Commit:     Sébastien Doeraene <sjrdoeraene@gmail.com>
+CommitDate: Tue Oct 29 18:46:52 2013 +0100
+ 
+    Update for new groupId and package structure of Scala.js.
+---
+ project/Build.scala | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ 
+diff --git a/project/Build.scala b/project/Build.scala
+index 560bca1..1713681 100644
+--- a/project/Build.scala
++++ b/project/Build.scala
+@@ -1,7 +1,7 @@
+ import sbt._
+ import Keys._
+[diff] 74537d9b257954056d3caa19eb3837500aded883 - line 1 of 24               75%
+EOF
+
+assert_equals 'blame-with-diff-no-file-filter.screen' <<EOF
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   1| import sbt._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   2| import Keys._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   3|
+74537d9 Sébastien Doeraene 2013-10-29 18:46 +0100   4| import scala.scalajs.sbtp
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   5| import ScalaJSPlugin._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   6| import ScalaJSKeys._
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   7|
+4779f9b Jonas Fonseca      2013-11-26 20:13 -0500   8| object ScalaJSBenchmarks
+90286e0 Jonas Fonseca      2013-10-14 13:15 -0400   9|
+[blame] project/Build.scala - line 4 of 64                                   14%
+commit 74537d9b257954056d3caa19eb3837500aded883
+Author:     Sébastien Doeraene <sjrdoeraene@gmail.com>
+AuthorDate: Tue Oct 29 18:46:52 2013 +0100
+Commit:     Sébastien Doeraene <sjrdoeraene@gmail.com>
+CommitDate: Tue Oct 29 18:46:52 2013 +0100
+ 
+    Update for new groupId and package structure of Scala.js.
+---
+ project/Build.scala  | 2 +-
+ project/build.sbt    | 2 +-
+ tracer/App.scala     | 4 ++--
+ tracer/Engine.scala  | 2 +-
+ tracer/JSTypes.scala | 2 +-
+ 5 files changed, 6 insertions(+), 6 deletions(-)
+ 
+diff --git a/project/Build.scala b/project/Build.scala
+index 560bca1..1713681 100644
+--- a/project/Build.scala
+[diff] 74537d9b257954056d3caa19eb3837500aded883 - line 1 of 76               23%
+EOF
+
+assert_equals 'blame-parent-of-74537d9.screen' <<EOF
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400   1| import sbt._
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400   2| import Keys._
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400   3|
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400   4| import ch.epfl.lamp.sbtscalajs
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400   5| import ScalaJSPlugin._
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400   6| import ScalaJSKeys._
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400   7|
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400   8| object ScalaJSBuild extends Bu
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400   9|
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  10|   val scalajsScalaVersion = "2
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  11|
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  12|   val projectSettings = Defaul
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  13|       organization := "scalajs
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  14|       version := "0.1-SNAPSHOT
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  15|   )
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  16|
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  17|   val defaultSettings = projec
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  18|       scalaVersion := scalajsS
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  19|       scalacOptions ++= Seq(
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  20|           "-deprecation",
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  21|           "-unchecked",
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  22|           "-feature",
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  23|           "-encoding", "utf8"
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  24|       )
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  25|   )
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  26|
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  27|   lazy val benchmarkSettings =
+90286e0 Jonas Fonseca 2013-10-14 13:15 -0400  28|       unmanagedSources in (Com
+[blame] project/Build.scala - line 4 of 66                                   42%
+EOF

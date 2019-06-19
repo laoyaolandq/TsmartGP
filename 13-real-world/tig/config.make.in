@@ -1,0 +1,39 @@
+# -*- makefile-gmake -*-
+
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+bindir = @bindir@
+mandir = @mandir@
+docdir = @docdir@
+datarootdir = @datarootdir@
+sysconfdir = @sysconfdir@
+
+CC = @CC@
+CFLAGS = @CFLAGS@ @COVERAGE_CFLAGS@
+CPPFLAGS = @CPPFLAGS@ -DHAVE_CONFIG_H
+LDFLAGS = @LDFLAGS@
+LDLIBS = @LIBS@ @CURSES_LIBS@
+
+ASCIIDOC = @ASCIIDOC@
+XMLTO = @XMLTO@
+DOCBOOK2PDF = @DOCBOOK2PDF@
+
+LCOV = @LCOV@
+GENHTML = @GENHTML@
+
+# Special compatibility features
+@NO_MKSTEMPS@ NO_MKSTEMPS = y
+@NO_SETENV@ NO_SETENV = y
+@NO_STRNDUP@ NO_STRNDUP = y
+@NO_WORDEXP@ NO_WORDEXP = y
+
+# Add config.h as a dependency for all object files
+CONFIG_H = config.h
+
+config.status: configure
+	./config.status --recheck
+
+config.h config.make: config.status
+	./config.status $@
+
+config.make: config.make.in

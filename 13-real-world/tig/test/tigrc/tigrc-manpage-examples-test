@@ -1,0 +1,49 @@
+#!/bin/sh
+
+. libtest.sh
+
+steps ":quit"
+
+mkdir -p snippets
+
+out_file=
+
+while read -r line; do
+	case "$line" in
+		"// TEST: tigrc")
+			out_file="$(mktemp snippets/tigrc.XXXXXX)"
+			;;
+		"// TEST: gitconfig")
+			out_file="$(mktemp snippets/gitconfig.XXXXXX)"
+			;;
+		"--------------"*)
+			if [ -s "$out_file" ]; then
+				out_file=
+			elif [ -e "$out_file" ]; then
+				printf '\n' >> "$out_file"
+			fi
+			;;
+		*)
+			if [ -e "$out_file" ]; then
+				printf '%s\n' "$line" >> "$out_file"
+			fi
+			;;
+	esac
+done < "$base_dir/../doc/tigrc.5.adoc"
+
+# Create files used by the `source` example
+mkdir -p .tig
+touch .tig/colorscheme.tigrc .tig/keybindings.tigrc
+
+tigrc <<EOF
+$(find snippets -name "tigrc.*" -exec cat -- "{}" \;)
+EOF
+
+gitconfig <<EOF
+$(find snippets -name "gitconfig.*" -exec cat -- "{}" \;)
+EOF
+
+test_tig status
+
+assert_equals stderr <<EOF
+EOF

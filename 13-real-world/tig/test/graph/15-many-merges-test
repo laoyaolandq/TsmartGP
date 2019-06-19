@@ -1,0 +1,71 @@
+#!/bin/sh
+#
+# Graph test: many merges
+
+. libtest.sh
+
+test_graph <<EOF
+commit P N O
+    Commit P - Merge O into N
+commit O M
+    Commit O after M
+commit N L M
+    Commit N - Merge M into L
+commit M K
+    Commit M after K
+commit L J K
+    Commit L - Merge K into J
+commit K E J
+    Commit K - Merge J into E
+commit J I F
+    Commit J - Merge F into I
+commit I C H
+    Commit I - Merge H into C
+commit H G
+    Commit H after G
+commit F C
+    Commit F after C
+commit E D
+    Commit E after D
+commit C A B
+    Commit C - Merge B into A
+commit D Q
+    Commit D after Q
+commit B R
+    Commit B after R
+commit R A
+    Commit R after A
+commit Q X
+    Commit Q after X
+commit A S T
+    Commit A - Merge T into S
+commit T U
+    Commit T after U
+commit U V
+    Commit U after V
+commit V W
+    Commit V after W
+EOF
+
+assert_equals stdout <<EOF
+●─╮ Commit P - Merge O into N
+│ ∙ Commit O after M
+●─│─╮ Commit N - Merge M into L
+│ ∙─╯ Commit M after K
+●─│─╮ Commit L - Merge K into J
+│ ●─┤ Commit K - Merge J into E
+●─│─╯ Commit J - Merge F into I
+●─│─│─╮ Commit I - Merge H into C
+│ │ │ ∙ Commit H after G
+│ │ ∙ │ Commit F after C
+│ ∙ │ │ Commit E after D
+●─│─┤ │ Commit C - Merge B into A
+│ ∙ │ │ Commit D after Q
+│ │ ∙ │ Commit B after R
+│ │ ∙ │ Commit R after A
+│ ∙ │ │ Commit Q after X
+●─│─┤ │ Commit A - Merge T into S
+│ │ ∙ │ Commit T after U
+│ │ ∙ │ Commit U after V
+│ │ ∙ │ Commit V after W
+EOF
