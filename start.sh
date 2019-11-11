@@ -1,7 +1,7 @@
 #!/bin/bash
 configFile="config/phase/yxpointer2/gated-bound.properties"
-TsmartGPRoot="/home/landq/Desktop/pointer/TsmartGP/"
-analyzedRoot="/home/landq/Desktop/pointer/TsmartGP/project/"
+TsmartGPRoot="/home/landq/Desktop/TsmartGP/"
+analyzedRoot="/home/landq/Desktop/TsmartGP/project/"
 outputPath="/home/landq/Desktop/results/"
 if [ ! -d $outputPath ]; then
 	mkdir -p $outputPath
@@ -22,4 +22,5 @@ java -jar TsmartAnalyze.jar -config=$configFile -captured=$analyzedRoot".process
 echo "Finish"
 
 cd "visualizer/"
+pwd
 java -jar bug-visualizer.jar -report=$outputPath"result.xml" -project=$analyzedRoot -web="webInspector/template/"
